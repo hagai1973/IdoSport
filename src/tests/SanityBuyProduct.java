@@ -87,7 +87,17 @@ public class SanityBuyProduct {
 	}
 	
 	
-
+	@Test(priority = 3, enabled = true, description = "verify date")
+	public void editProduct() throws InterruptedException, IOException {	
+		//Assert.assertTrue(main.getIntoProduct("משקולות יד דאמבלס משושה עם אחיזה נוחה לידיים"));
+	}
+	
+	
+	@Test(priority = 4, enabled = true, description = "verify date")
+	public void addToCart() throws InterruptedException, IOException {	
+		//Assert.assertTrue(main.getIntoProduct("משקולות יד דאמבלס משושה עם אחיזה נוחה לידיים"));
+	}
+	
 	
 	@AfterMethod
 	public void afterMethod(ITestResult result) throws IOException {
