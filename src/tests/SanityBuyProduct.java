@@ -78,7 +78,7 @@ public class SanityBuyProduct {
 	
 	/*  Prerequisite: Do search
 	 * 		Given: Client is in search results 
-	 * 		When: click on result
+	 * 		When: click on result item
 	 *  	Then: Getting into product
 	 */
 	@Test(priority = 2, enabled = true, description = "verify date")
@@ -99,7 +99,7 @@ public class SanityBuyProduct {
 	
 	
 	
-	/*  Prerequisite: Do search
+	/*  Prerequisite: Product page
 	 * 		Given: Client is in product  
 	 * 		When: click on add to cart
 	 *  	Then: Product added to cart
